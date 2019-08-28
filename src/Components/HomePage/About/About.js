@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import './herobanner.css'
+import './about.css'
 
-export default class HeroBanner extends Component {
+export default class About extends Component {
     render() {
         return (
-            <div className='hero-banner'>
+            <div className='about-section' id='about'>
                 
             </div>
         )

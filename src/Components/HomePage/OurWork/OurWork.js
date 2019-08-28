@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import './about.css'
+import './ourwork.css'
 
-export default class About extends Component {
+export default class OurWork extends Component {
     render() {
         return (
-            <div className='about-section'>
+            <div className='our-work' id='projects'>
                 
             </div>
         )
