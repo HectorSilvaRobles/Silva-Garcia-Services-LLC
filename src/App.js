@@ -1,25 +1,24 @@
 import React from 'react';
+import {Route, Switch} from 'react-router-dom';
 import './App.css';
-import Header from './Components/Header/Header'
-import HeroBanner from './Components/HeroBanner/HeroBanner'
-import About from './Components/About/About'
-import OurWork from './Components/OurWork/OurWork'
-import OurServices from './Components/OurServices/OurServices'
-import ContactSection from './Components/ContactSection/ContactSection'
 import Footer from './Components/Footer/Footer'
+import HomePage from './Components/HomePage/HomePage'
+import ProjectPage from './Components/ProjectsPage/ProjectPage'
+import ServicesPage from './Components/ServicesPage/ServicesPage'
+import AboutPage from './Components/AboutPage/AboutPage'
+import ContactPage from './Components/ContactPage/ContactPage'
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <Header />
-      </header>
       <body>
-        <HeroBanner />
-        <About />
-        <OurWork/>
-        <OurServices />
-        <ContactSection />
+        <Switch>
+          <Route exact path='/' component={HomePage} />
+          <Route exact path='/projects' component={ProjectPage} />
+          <Route exact path='/services' component={ServicesPage} />
+          <Route exact path='/about' component={AboutPage} />
+          <Route exact path='/contact' component={ContactPage} />
+        </Switch>
       </body>
       <footer>
         <Footer />

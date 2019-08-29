@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import './ourservices.css'
+import './serviceshero.css'
 
-export default class OurServices extends Component {
+export default class ServicesHero extends Component {
     render() {
         return (
-            <div className='our-services'>
+            <div className='services-hero'>
                 
             </div>
         )

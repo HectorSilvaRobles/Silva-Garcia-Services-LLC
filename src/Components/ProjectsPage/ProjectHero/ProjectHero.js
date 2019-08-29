@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import './ourwork.css'
+import './projecthero.css'
 
-export default class OurWork extends Component {
+export default class ProjectHero extends Component {
     render() {
         return (
-            <div className='our-work'>
+            <div className='projects-hero'>
                 
             </div>
         )

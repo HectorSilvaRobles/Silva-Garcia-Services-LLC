@@ -1,5 +1,49 @@
 .footer {
     background: black;
-    height: 30vh;
+    height: 33vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav, .footer-business, .footer-info {
+    background: white;
+    width: 15%;
+    height: 100%;
+    margin: 10px 40px;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: none;
+}
+.footer-nav > a {
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.footer-business {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: none;
+    justify-content: flex-end;
+}
+
+.footer-business > img {
+    width: 100px;
+}
+.footer-business > h3 {
+    font-size: 8px;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white
 }
