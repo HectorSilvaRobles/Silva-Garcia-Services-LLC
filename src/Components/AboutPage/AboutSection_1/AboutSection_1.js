@@ -5,6 +5,7 @@ export default class AboutSection_1 extends Component {
     render() {
         return (
             <div className='about-section_1'>
+                <div className='as1-header'></div>
                 
             </div>
         )

@@ -1,5 +1,20 @@
 .service-selection {
     background: yellow;
-    height: 150vh;
+    height: 110vh;
     width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ss-header {
+    background: white;
+    width: 60%;
+    height: 25%;
+}
+
+.ss-options {
+    background: grey;
+    height: 60%;
+    width: 70%;
 }

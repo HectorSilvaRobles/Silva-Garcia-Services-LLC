@@ -1,5 +1,21 @@
 .call-to-action {
-    background: grey;
+    background: rgb(85, 85, 85);
     height: 33vh;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-wording{
+    background: #ffffff;
+    height: 60%;
+    width: 40%;
+    margin: 5px;
+}
+.cta-button{
+    background: #ffffff;
+    height: 60%;
+    width: 25%;
+    margin: 5px;
 }

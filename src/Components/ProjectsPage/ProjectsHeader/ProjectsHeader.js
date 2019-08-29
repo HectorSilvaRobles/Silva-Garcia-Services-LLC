@@ -5,6 +5,7 @@ export default class ProjectsHeader extends Component {
     render() {
         return (
             <div className='projects-header'>
+                <div className='ph-select-menu'></div>
                 
             </div>
         )

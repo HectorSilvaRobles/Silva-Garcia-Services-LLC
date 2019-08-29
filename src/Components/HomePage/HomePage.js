@@ -3,8 +3,8 @@ import HeroBanner from './HeroBanner/HeroBanner'
 import About from './About/About'
 import OurWork from './OurWork/OurWork'
 import OurServices from './OurServices/OurServices'
-import ContactSection from './ContactSection/ContactSection'
 import Header from '../Header/Header'
+import CallToAction from '../CallToAction/CallToAction'
 
 export default class HomePage extends Component {
     componentDidMount = () => {
@@ -18,7 +18,7 @@ export default class HomePage extends Component {
                 <OurServices />
                 <OurWork />
                 <About />
-                <ContactSection />
+                <CallToAction />
             </div>
         )
     }

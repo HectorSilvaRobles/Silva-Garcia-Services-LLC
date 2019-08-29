@@ -1,5 +1,14 @@
 .projects-header {
     background: red;
-    height: 30vh;
+    height: 18vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.ph-select-menu {
+    background: #858585;
+    height: 50%;
+    width: 60%;
 }

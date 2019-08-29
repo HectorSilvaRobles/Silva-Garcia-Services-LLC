@@ -5,6 +5,7 @@ export default class ProjectHero extends Component {
     render() {
         return (
             <div className='projects-hero'>
+                <div className='ph-title'></div>
                 
             </div>
         )

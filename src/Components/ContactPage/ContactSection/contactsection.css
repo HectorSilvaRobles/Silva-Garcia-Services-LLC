@@ -1,5 +1,15 @@
 .contact-section {
     background: white;
-    height: 100vh;
+    height: 95vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cs-form-box {
+    border: solid lightgrey 2px;
+    height: 78%;
+    width: 80%;
+    position: relative;
+    top: 15vh;
 }

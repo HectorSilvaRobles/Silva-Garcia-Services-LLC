@@ -5,7 +5,7 @@ export default class ProjectsGallery extends Component {
     render() {
         return (
             <div className='project-gallery'>
-                
+                <div className='pg-gallery-box'></div>
             </div>
         )
     }

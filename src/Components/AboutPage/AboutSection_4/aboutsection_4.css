@@ -1,5 +1,21 @@
 .about-section_4 {
-    background: red;
-    height: 60vh;
+    background: white;
+    height: 55vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.as4-left-side {
+    background: black;
+    width: 30%;
+    height: 80%;
+    margin: 5px;
+}
+
+.as4-right-side {
+    background: black;
+    width: 40%;
+    height: 80%;
 }

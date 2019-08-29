@@ -1,5 +1,21 @@
 .about-section_3 {
-    background: green;
-    height: 60vh;
+    background: black;
+    height: 55vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.as3-left-side {
+    background: white;
+    height: 80%;
+    width: 40%;
+    margin: 5px;
+}
+.as3-right-side {
+    background: white;
+    height: 80%;
+    width: 30%;
+    margin: 5px;
 }

@@ -1,25 +1,32 @@
 .footer {
     background: black;
-    height: 33vh;
+    height: 28vh;
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .footer-nav, .footer-business, .footer-info {
-    background: white;
+    /* background: white; */
     width: 15%;
     height: 100%;
-    margin: 10px 40px;
 }
 
 .footer-nav {
     display: flex;
+    width: 40%;
+    flex-direction: row-reverse;
+}
+
+.real-nav {
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    background: none;
+    width: 25%;
+    /* background: red; */
 }
-.footer-nav > a {
+.real-nav > a {
     margin-top: 20px;
     text-decoration: none;
     font-size: 20px;
@@ -31,6 +38,7 @@
 .footer-business {
     height: 90%;
     display: flex;
+    width: 50%;
     flex-direction: column;
     align-items: center;
     background: none;
@@ -46,4 +54,24 @@
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: white
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 40%;
+    height: 90%;
+}
+
+.footer-info > span {
+    display: flex;
+    margin: 5px;
+}
+
+.footer-info > span > h1 {
+    color: white;
+    margin: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
