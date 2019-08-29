@@ -1,5 +1,15 @@
 .project-gallery {
     background: orange;
-    height: 80vh;
+    height: 105vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.pg-gallery-box {
+    margin-top: 80px;
+    background: lightgrey;
+    height: 75%;
+    width: 60%;
 }

@@ -1,5 +1,45 @@
 .our-services {
-    background: orange;
-    height: 80vh;
+    /* background: white; */
+    height: 65vh;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+/* header of our services section */
+.os-header-section {
+    background: white;
+    height: 35%;
+    width: 70%;
+}
+
+/* our services option section */
+.os-service-options {
+    background: orange;
+    height: 65%;
+    display: flex;
+    width: 70%;
+}
+
+.os-so-left-side {
+    background: yellow;
+    height: 100%;
+    width: 50%;
+    border: solid black 2px;
+}
+
+.os-so-ls-top {
+    /* background: black; */
+    border: solid black 1px;
+    height: 50%;
+    width: 100%;
+}
+
+.os-so-right-side {
+    background: yellow;
+    height: 100%;
+    width: 50%;
 }

@@ -1,5 +1,20 @@
 .about-section {
-    background: grey;
-    height: 50vh;
+    background: lightgrey;
+    height: 55vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hp-about-left {
+    background: white;
+    height: 90%;
+    width: 37%;
+}
+
+.hp-about-right {
+    background: yellow;
+    height: 90%;
+    width: 37%;
 }

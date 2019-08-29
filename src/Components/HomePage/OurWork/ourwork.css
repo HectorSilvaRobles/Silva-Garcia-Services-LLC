@@ -1,5 +1,23 @@
 .our-work {
     background: red;
-    height: 75vh;
+    height: 70vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* our-work title section */
+
+.ow-header {
+    background: black;
+    height: 30%;
+    width: 70%;
+}
+
+.ow-slide {
+    background: yellow;
+    height: 60%;
+    width: 75%;
 }

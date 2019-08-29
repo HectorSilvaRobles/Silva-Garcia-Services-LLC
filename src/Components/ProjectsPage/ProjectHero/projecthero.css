@@ -1,4 +1,13 @@
 .projects-hero {
     background: green;
-    height: 60vh;
+    height: 55vh;
+}
+
+.ph-title {
+    background: white;
+    height: 20%;
+    width: 28%;
+    position: relative;
+    top: 20vh;
+    left: 35%;
 }

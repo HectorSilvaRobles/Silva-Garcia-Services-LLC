@@ -1,5 +1,15 @@
 .about-section_2 {
-    background: grey;
-    height: 60vh;
+    background: white;
+    height: 55vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.as2-left-side, .as2-right-side{
+    background: yellow;
+    height: 80%;
+    width: 35%;
+    margin: 5px;
 }
