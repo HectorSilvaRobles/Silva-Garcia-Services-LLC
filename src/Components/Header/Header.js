@@ -1,25 +1,31 @@
 import React, { Component } from "react";
 import "./header.css";
 import SGLogo from '../../Media/SGLogo.png'
-import {NavLink} from 'react-router-dom'
-import { Link, animateScroll as scroll } from "react-scroll";
+import {NavLink, Redirect} from 'react-router-dom'
 
 export default class Header extends Component {
+  constructor(props){
+    super(props)
+    
+    this.state = {
+      redirect: false
+    }
+  }
+
+  logoToHomePage = () => {
+    this.setState({
+      redirect: true
+    })
+  }
+
   render() {
     return (
     <div className="header">
-      <Link activeClass="active"
-          to="hero"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration= {500}>
-        <div className='header-logo'>
-          <img src={SGLogo} />
-          <h1>Silva-Garcia</h1>
-        </div>
-      </Link>
-
+      {this.state.redirect ? <Redirect to='/' /> : null}
+      <div className='header-logo' >
+        <img src={SGLogo} onClick={() => this.logoToHomePage()} />
+        <h1 onClick={() => this.logoToHomePage()} >Silva-Garcia</h1>
+      </div>
       <div className='header-nav'>
         <NavLink exact to='/' >Home</NavLink>
         <NavLink to='/projects'>Projects</NavLink>
