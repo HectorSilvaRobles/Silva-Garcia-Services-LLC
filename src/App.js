@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import {Route, Switch} from 'react-router-dom';
 import './App.css';
 import Footer from './Components/Footer/Footer'
@@ -8,9 +8,12 @@ import ServicesPage from './Components/ServicesPage/ServicesPage'
 import AboutPage from './Components/AboutPage/AboutPage'
 import ContactPage from './Components/ContactPage/ContactPage'
 
-function App() {
+
+class App extends Component {
+  render(){
   return (
     <div className="App">
+      
       <body>
         <Switch>
           <Route exact path='/' component={HomePage} />
@@ -25,6 +28,7 @@ function App() {
       </footer>
     </div>
   );
+}
 }
 
 export default App;

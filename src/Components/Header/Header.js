@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./header.css";
 import SGLogo from '../../Media/SGLogo.png'
 import {NavLink, Redirect} from 'react-router-dom'
+import DrawerToggleButton from './SideDrawer/DrawerToggleButton/DrawerToggleButton'
 
 export default class Header extends Component {
   constructor(props){
@@ -32,6 +33,9 @@ export default class Header extends Component {
         <NavLink to='/services'>Services</NavLink>
         <NavLink to='/about'>About Us</NavLink>
         <NavLink to='/contact'>Contact</NavLink>
+      </div>
+      <div className='hamburger'>
+        <DrawerToggleButton click={this.props.drawerClick} />
       </div>
     </div>
     );
