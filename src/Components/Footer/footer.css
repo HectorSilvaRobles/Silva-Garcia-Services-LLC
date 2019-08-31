@@ -1,6 +1,6 @@
 .footer {
     background: black;
-    height: 38vh;
+    height: 40vh;
     width: 100%;
     display: flex;
     flex-direction:  column;
@@ -11,11 +11,10 @@
 .upper-footer {
     width: 100%;
     display: flex;
-    height: 60%;
+    height: 100%;
     justify-content: space-around;
     margin-top: 50px;
-    /* align-items: flex-end; */
-    /* background: red; */
+    align-items: flex-end;
 }
 
 .footer-nav {
@@ -53,10 +52,10 @@
 .footer-business {
     height: 100%;
     display: flex;
-    width: 25%;
+    width: 50%;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     /* background: red; */
 }
 
@@ -94,21 +93,19 @@
 
 .company-info {
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
-    align-items: space-between;
-    height: 40%;
-    width: 40%;
-    margin-bottom: 20px;
-    margin-top: 30px;
+    align-items: center;
+    height: 70%;
+    width: 60%;
     /* background: red; */
 }
 .spiri {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background: green; */
     height: 50%;
+    width: 50%;
+    /* background: green; */
 }
 .spiri > img {
     width: 70px;
@@ -208,5 +205,71 @@
         align-items: center;
         /* background: green; */
         height: 25%;
+    }
+}
+
+@media screen and (min-width: 2000px){
+    .footer-nav {
+        margin-top: 30px;
+    }
+    .real-nav_1 > a, .real-nav_2 > a {
+        font-size: 50px;
+    }
+
+    .footer-info {
+        justify-content: space-around;
+    }
+
+    .footer-info > span > h1 {
+        font-size: 30px;
+        
+    }
+    .icons {
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+    }
+
+    .company-info {
+        /* background: red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .spiri > img {
+        width: 200px;
+    }
+    .spiri > h1 {
+        font-size: 30px;
+    }
+
+    .footer-business {
+        /* background: brown; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+    }
+
+    .footer-business > img {
+        width: 150px;
+    }
+    .footer-business > h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 791px){
+    .real-nav_1 > a, .real-nav_2 > a {
+        font-size: 18px;
+    }
+
+    .icons {
+        width: 20px;
+    }
+
+    .footer-info > span > h1 {
+        font-size: 12px;
     }
 }
