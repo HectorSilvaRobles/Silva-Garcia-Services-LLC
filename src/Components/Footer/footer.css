@@ -1,52 +1,67 @@
 .footer {
     background: black;
-    height: 28vh;
+    height: 38vh;
     width: 100%;
     display: flex;
+    flex-direction:  column;
     justify-content: center;
     align-items: center;
 }
 
-.footer-nav, .footer-business, .footer-info {
-    /* background: white; */
-    width: 15%;
-    height: 100%;
+.upper-footer {
+    width: 100%;
+    display: flex;
+    height: 60%;
+    justify-content: space-around;
+    margin-top: 50px;
+    /* align-items: flex-end; */
+    /* background: red; */
 }
 
 .footer-nav {
     display: flex;
-    width: 40%;
-    flex-direction: row-reverse;
-}
-
-.real-nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 25%;
+    justify-content: space-around;
+    width: 30%;
+    height: 90%;
     /* background: red; */
 }
-.real-nav > a {
+
+.real-nav_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    height: 80%;
+}
+
+.real-nav_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    height: 50%;
+}
+.real-nav_1 > a, .real-nav_2 > a {
     margin-top: 20px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: white;
 }
 
 .footer-business {
-    height: 90%;
+    height: 100%;
     display: flex;
-    width: 50%;
+    width: 25%;
     flex-direction: column;
     align-items: center;
-    background: none;
     justify-content: flex-end;
+    /* background: red; */
 }
 
 .footer-business > img {
-    width: 100px;
+    width: 80px;
 }
 .footer-business > h3 {
     font-size: 8px;
@@ -59,14 +74,14 @@
 .footer-info {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    width: 40%;
-    height: 90%;
+    justify-content: center;
+    width: 30%;
+    height: 100%;
 }
 
 .footer-info > span {
     display: flex;
-    margin: 5px;
+    /* margin-top: 10px; */
 }
 
 .footer-info > span > h1 {
@@ -74,4 +89,124 @@
     margin: 12px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+    font-weight: bold;
+}
+
+.company-info {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: space-between;
+    height: 40%;
+    width: 40%;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    /* background: red; */
+}
+.spiri {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: green; */
+    height: 50%;
+}
+.spiri > img {
+    width: 70px;
+}
+
+.icons {
+    width: 25px;
+}
+
+
+
+.spiri > h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 790px){
+    .footer {
+        height: 90vh;
+        flex-direction: column;
+    }
+
+    .upper-footer {
+        display: flex;
+        height: 60%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .footer-nav {
+        width: 85%;
+        justify-content: space-around;
+        height: 45%;
+        /* background: orange; */
+    }
+
+    .real-nav_1 {
+        display: flex;
+        height: 90%;
+        width: 50%;
+        flex-direction: column;
+        justify-content: space-between;
+        /* background: red; */
+    }
+
+    .real-nav_1 > a, .real-nav_2 > a {
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+
+    .real-nav_2 {
+        display: flex;
+        height: 60%;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 40%;
+        /* background: green; */
+    }
+
+    .footer-info {
+        width: 80%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        /* background: yellow; */
+        height: 55%;
+    }
+
+    .footer-info > span > h1 {
+        font-size: 12px;
+    }
+
+    .icons {
+        width: 25px;
+    }
+
+    .spiri {
+        display: flex;
+        /* background: grey; */
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .spiri > img {
+        width: 100px;
+    }
+
+    .company-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* background: green; */
+        height: 25%;
+    }
 }
