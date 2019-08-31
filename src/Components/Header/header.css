@@ -54,7 +54,7 @@
     font-weight: bold
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 550px){
     .header-nav {
         display: none;
     }
@@ -63,7 +63,22 @@
     }
 }
 
-@media screen and (min-width: 501px){
+@media screen and (min-width: 551px) and (max-width: 790px){
+    .header-nav {
+        display: none;
+    }
+    .header-logo{
+        /* background: red; */
+        display: flex;
+        justify-content: flex-start;
+        width: 45%;
+    }
+    .header-logo > h1 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 791px){
     .hamburger {
         display: none;
     }
