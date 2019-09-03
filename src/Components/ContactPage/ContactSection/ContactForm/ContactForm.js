@@ -84,6 +84,7 @@ function ContactForm(formikProps) {
                             onChange={handleChange}
                             value={values.email}
                             onBlur={handleBlur}
+                            className='cf-s1-name'
                         />
                         {touched.email && errors.email && (
                             <p>{errors.email}</p>
@@ -91,7 +92,7 @@ function ContactForm(formikProps) {
                     </div>
                 </div>
                 <div className='cf-section2'>
-                    <div className='input-box'>
+                    <div className='input-box phone-input'>
                         <label htmlFor='phone'>Phone</label>
                         <Field
                             type='text'
@@ -101,6 +102,7 @@ function ContactForm(formikProps) {
                             onChange={handleChange}
                             value={values.phone}
                             onBlur={handleBlur}
+                            className='cf-s1-name'
                         />
                         {touched.phone && errors.phone && (
                             <p>{errors.phone}</p>
@@ -116,6 +118,7 @@ function ContactForm(formikProps) {
                             onChange={handleChange}
                             value={values.zip_code}
                             onBlur={handleBlur}
+                            className='cf-s1-name'
                             />
                             {touched.zip_code && errors.zip_code && (
                                 <p>{errors.zip_code}</p>
@@ -131,6 +134,7 @@ function ContactForm(formikProps) {
                             onChange={handleChange}
                             value={values.budget}
                             onBlur={handleBlur}
+                            className='cf-s1-name'
                         />
                             {touched.budget && errors.budget && (
                                 <p>{errors.budget}</p>
@@ -141,6 +145,7 @@ function ContactForm(formikProps) {
                     <div className='input-box'>
                         <label htmlFor='description'>Description</label>
                             <Field 
+                            component='textarea'
                             type='text'
                             name='description'
                             id='description'
@@ -148,6 +153,7 @@ function ContactForm(formikProps) {
                             onChange={handleChange}
                             value={values.description}
                             onBlur={handleBlur}
+                            className='description-input'
                             />
                             {touched.description && errors.description && (
                                 <p>{errors.description}</p>
