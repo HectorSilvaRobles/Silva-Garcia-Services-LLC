@@ -23,26 +23,26 @@
 }
 
 .cs-input-area {
-    background: orange;
     height: 100%;
     width: 55%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
 }
 
 .cs-input-header { 
-    background: white;
-    height: 25%;
-    width: 50%;
+    /* background: red; */
+    height: 15%;
+    width: 70%;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end;
+    /* justify-content: flex-end; */
 }
 
 .cs-input-header > h1 {
     font-size: 40px;
+    line-height: 1.2;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
