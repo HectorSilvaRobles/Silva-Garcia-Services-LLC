@@ -1,0 +1,29 @@
+.form-container {
+    height: 75%;
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.cf-section1 {
+    display: flex;
+    background: red;
+    height: 20%;
+    width: 80%;
+}
+
+.cf-s1-name {
+    width: 60%;
+    height: 25%;
+    outline: none;
+    border-bottom: solid lightgrey 5px;
+}
