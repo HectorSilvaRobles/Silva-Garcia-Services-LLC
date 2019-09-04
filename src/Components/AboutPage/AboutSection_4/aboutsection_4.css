@@ -1,6 +1,6 @@
 .about-section_4 {
     background: white;
-    height: 55vh;
+    height: 50vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -8,14 +8,118 @@
 }
 
 .as4-left-side {
-    background: black;
-    width: 30%;
+    width: 35%;
     height: 80%;
     margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.as4-header-intro {
+    height: 20%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.as4-header-intro > h1 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.as4-our-promise {
+    height: 50%;
+    width: 70%;
+}
+
+.as4-our-promise > p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    font-weight: 100;
+    color: grey;
+    letter-spacing: 1px;
 }
 
 .as4-right-side {
     background: black;
-    width: 40%;
+    width: 35%;
     height: 80%;
+}
+
+@media screen and (max-width: 600px){
+    .about-section_4 {
+        height: 90vh;
+        flex-direction: column-reverse;
+    }
+
+    .as4-left-side, .as4-right-side {
+        width: 100%;
+        margin: 0;
+    }
+
+    .as4-right-side {
+        background: yellow;
+        height: 100%;
+    }
+
+    .as4-header-intro {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .as4-header-intro > h1 {
+        font-size: 35px;
+    }
+
+    .as4-our-promise {
+        height: 60%;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 601px) {
+    .about-section_4 {
+        height: 45vh;
+    }
+    .as4-left-side, .as4-right-side {
+        width: 45%;
+    }
+
+    .as4-header-intro {
+        width: 80%;
+    }
+
+    .as4-our-promise {
+        height: 60%;
+        width: 80%;
+    }
+
+    .as4-our-promise > p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .as4-header-intro {
+        width: 80%;
+    }
+
+    .as4-header-intro > h1 {
+        font-size: 70px;
+    }
+
+    .as4-our-promise {
+        width: 80%;
+    }
+
+    .as4-our-promise > p {
+        font-size: 35px;
+    }
 }
