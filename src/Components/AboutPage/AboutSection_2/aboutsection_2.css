@@ -1,6 +1,6 @@
 .about-section_2 {
     background: white;
-    height: 55vh;
+    height: 45vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -12,4 +12,111 @@
     height: 80%;
     width: 35%;
     margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.as2-left-side {
+    flex-direction: column;
+    background: none;
+}
+
+.who-we-are {
+    height: 20%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.who-we-are > h1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.who-we-are-intro {
+    height: 50%;
+    width: 70%;
+}
+
+.who-we-are-intro > p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+    color: rgb(99, 99, 99);
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 600px){
+    .about-section_2 {
+        flex-direction: column-reverse;
+        height: 90vh;
+    }
+
+    .as2-left-side, .as2-right-side{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+
+    .who-we-are {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .who-we-are > h1 {
+        font-size: 35px;
+    }
+
+    .who-we-are-intro {
+        width: 90%;
+        height: 60%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 601px){
+    .about-section_2 {
+        height: 45vh;
+    }
+    .as2-left-side, .as2-right-side {
+        width: 45%;
+    }
+
+    .who-we-are{
+        width: 80%;
+    }
+
+    .who-we-are-intro {
+        width: 80%;
+        height: 70%;
+        display: flex;
+        justify-content: start;
+    }
+
+    .who-we-are-intro > p {
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (min-width: 2000px){
+
+    .who-we-are {
+        width: 80%;
+    }
+    .who-we-are > h1 {
+        font-size: 70px;
+    }
+
+    .who-we-are-intro {
+        width: 80%;
+    }
+
+    .who-we-are-intro > p {
+        font-size: 35px;
+    }
 }

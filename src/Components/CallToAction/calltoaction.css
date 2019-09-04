@@ -8,14 +8,105 @@
 }
 
 .cta-wording{
-    background: #ffffff;
     height: 60%;
-    width: 40%;
+    width: 35%;
     margin: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.cta-wording > h1 {
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    line-height: 1.3
 }
 .cta-button{
-    background: #ffffff;
     height: 60%;
-    width: 25%;
+    width: 30%;
     margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cta-button > button {
+    background: black;
+    outline: none;
+    color: white;
+    width: 90%;
+    height: 50%;
+    border-radius: 100px;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px){
+    .call-to-action {
+        height: 45vh;
+        flex-direction: column;
+    }
+
+    .cta-wording {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .cta-wording > h1 {
+        font-size: 32px;
+        width: 90%;
+        text-align: center;
+    }
+
+    .cta-button {
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .cta-button > button {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 601px) {
+    .call-to-action {
+        height: 30vh;
+    }
+
+    .cta-wording {
+        width: 40%;
+    }
+
+    .cta-button {
+        width: 40%;
+    }
+
+    .cta-button > button {
+        font-size: 18px;
+    }
+
+    .cta-wording > h1 {
+        font-size: 28px;
+        /* width: 80%; */
+    }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 900px){
+    .cta-wording > h1 {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .cta-wording > h1 {
+        font-size: 70px;
+    }
+
+    .cta-button > button {
+        font-size: 40px;
+    }
 }

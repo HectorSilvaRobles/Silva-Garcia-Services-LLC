@@ -1,6 +1,6 @@
 .about-section_1 {
     background: white;
-    height: 30vh;
+    height: 25vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -8,7 +8,38 @@
 }
 
 .as1-header {
-    background: red;
     width: 30%;
     height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px){
+    .about-section_1{
+        height: 28vh;
+    }
+    .as1-header {
+        height: 100%;
+        width: 100%;
+        align-items: flex-end;
+        font-size: 45px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 601px){
+    .as1-header {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 2000px){
+    .as1-header {
+        font-size: 120px;
+    }
 }
