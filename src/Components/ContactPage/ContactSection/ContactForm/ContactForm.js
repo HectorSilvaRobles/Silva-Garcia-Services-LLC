@@ -19,20 +19,19 @@ const Formik = withFormik({
     validationSchema: Yup.object().shape({
         name: Yup.string()
             .min(1, 'Must be real name')
-            .max(100, 'Must be shorter than ')
-            .required('Must enter a name'),
+            .required('Name is required'),
         phone: Yup.string()
-            .min(7, 'Please enter valid phone number')
-            .required('Please enter a valid phone number'),
+            .min(7, 'Please enter phone number')
+            .required('Phone is required'),
         email: Yup.string()
             .email('Must be a valid Email')
             .max(150, 'Must be shorter than 150 characters')
-            .required('Please enter an Email'),
+            .required('Email is required'),
         zip_code: Yup.number()
             .integer('Enter a valid Zip Code')
-            .required('Zip Code is Required'),
+            .required('Zip Code is required'),
         budget: Yup.number()
-            .required('Must enter a budget'),
+            .required('Please enter a budget'),
         description: Yup.string()
             .min(15, 'Description must be longer than 15 characters')
             .required('Please provide a short description of what you want done.')
