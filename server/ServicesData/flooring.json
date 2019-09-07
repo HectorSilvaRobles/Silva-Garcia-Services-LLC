@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Tile",
+        "description": "",
+        "image": ""
+    },
+    {
+        "id": 2,
+        "name": "Hardwood",
+        "description": "",
+        "image": ""
+    },
+    {
+        "id": 3,
+        "name": "Carpet",
+        "description": "",
+        "image": ""
+    }
+]
