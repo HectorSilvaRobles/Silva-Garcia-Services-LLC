@@ -1,14 +1,25 @@
 import React, { Component } from 'react'
 import './servicesselection.css'
+import {connect} from 'react-redux'
+import axios from 'axios'
 
-export default class ServicesSelection extends Component {
+class ServicesSelection extends Component {
     render() {
+        axios.get(`/api/${this.props.service}`)
+        .then(res => console.log(res.data))
+
         return (
             <div className='service-selection'>
-                <div className='ss-header'></div>
-                <div className='ss-options'></div>
                 
             </div>
         )
     }
 }
+
+const mapStateToProps = (reduxState) => {
+    return reduxState
+}
+
+const myConnect = connect(mapStateToProps)
+
+export default myConnect(ServicesSelection)
