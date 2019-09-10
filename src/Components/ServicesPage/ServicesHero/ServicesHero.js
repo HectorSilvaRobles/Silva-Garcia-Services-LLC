@@ -2,10 +2,15 @@ import React, { Component } from 'react'
 import './serviceshero.css'
 import {connect} from 'react-redux'
 import {setService} from '../../../dux/reducer'
+import axios from 'axios'
 
 class ServicesHero extends Component {
+
+    componentDidMount =() => {
+        axios.get(`/api/concrete`).then(res => this.props.setService(res.data))
+    }
     servicesToDisplay = (service) => {
-        this.props.setService(service)
+        axios.get(`/api/${service}`).then(res => this.props.setService(res.data))
     }
     render() {
         console.log(this.props)
@@ -20,6 +25,7 @@ class ServicesHero extends Component {
                     <button className='service-options' onClick={()=>this.servicesToDisplay('wall-work')}>Wall Work</button>
                     <button className='service-options' onClick={()=>this.servicesToDisplay('landscaping')}>Landscaping</button>
                     <button className='service-options' onClick={()=>this.servicesToDisplay('flooring')}>Flooring</button>
+                    <button className='service-options' onClick={()=>this.servicesToDisplay('cleaning')}>Cleaning</button>
                 </div>
                 
             </div>

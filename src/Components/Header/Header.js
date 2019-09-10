@@ -29,7 +29,7 @@ export default class Header extends Component {
       </div>
       <div className='header-nav'>
         <NavLink exact to='/' >Home</NavLink>
-        <NavLink to='/projects'>Projects</NavLink>
+        {/* <NavLink to='/projects'>Projects</NavLink> */}
         <NavLink to='/services'>Services</NavLink>
         <NavLink to='/about'>About Us</NavLink>
         <NavLink to='/contact'>Contact</NavLink>

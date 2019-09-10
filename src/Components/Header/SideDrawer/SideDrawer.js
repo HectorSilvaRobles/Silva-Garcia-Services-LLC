@@ -10,7 +10,7 @@ function SideDrawer(props){
     return (
     <nav className={drawerClasses}>
         <NavLink to='/'>Home</NavLink>
-        <NavLink to='/projects'>Projects</NavLink>
+        {/* <NavLink to='/projects'>Projects</NavLink> */}
         <NavLink to='/services'>Services</NavLink>
         <NavLink to='/about'>About Us</NavLink>
         <NavLink to='/contact'>Contact</NavLink>
