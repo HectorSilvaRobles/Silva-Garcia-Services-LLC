@@ -14,7 +14,7 @@ export default class Footer extends Component {
                         <div className='real-nav_1'>
                             <NavLink to='/'>Home</NavLink>
                             <NavLink to='/services'>Services</NavLink>
-                            <NavLink to='/projects'>Projects</NavLink>
+                            {/* <NavLink to='/projects'>Projects</NavLink> */}
                         </div>
                         <div className='real-nav_2'>
                             <NavLink to='/about'>About</NavLink>
