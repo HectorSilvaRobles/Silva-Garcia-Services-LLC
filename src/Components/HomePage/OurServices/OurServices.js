@@ -23,15 +23,15 @@ export default class OurServices extends Component {
                         </div>
                         <div className='so-box'>
                             <div className='so-icon'>
-                                <img src={shovel} />
+                                <img src={brush} />
                             </div>
-                            <p>Landscape Services</p>
+                            <p>Painting Services</p>
                         </div>
                         <div className='so-box'>
                             <div className='so-icon'>
-                                <img src={brush} />
+                                <img src={shovel} />
                             </div>
-                            <p>Wall Work</p>
+                            <p>Landscape Services</p>
                         </div>
                     </div>
                     <div className='so-bottom-row'>

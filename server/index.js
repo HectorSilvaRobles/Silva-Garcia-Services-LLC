@@ -8,11 +8,12 @@ app.use(express.json())
 const {EMAIL, EMAIL_PASSWORD} = process.env
 
 // landscape services
-const {getLandscapingServices, getConcreteServices, getWallWorkServices, getFlooringServices} = require('./controller')
+const {getLandscapingServices, getConcreteServices, getWallWorkServices, getFlooringServices, getCleaningServices} = require('./controller')
 app.get('/api/landscaping', getLandscapingServices )
 app.get('/api/concrete', getConcreteServices)
 app.get('/api/wall-work', getWallWorkServices)
 app.get('/api/flooring', getFlooringServices)
+app.get('/api/cleaning', getCleaningServices)
 
 // Nodmailer 
 let nodemailerFunction = (input) => {

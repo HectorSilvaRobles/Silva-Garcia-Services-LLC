@@ -1,33 +1,27 @@
+
 [
     {
         "id": 1,
-        "name": "Patio Concrete",
-        "description": "",
-        "image": ""
+        "name": "Patios & Driveways",
+        "description": "Our professionals provide the labor and skills needed to make excellent and durable concrete Patios and Driveways.",
+        "image": "https://i.imgur.com/WVZZRzA.jpg"
     },
     {
         "id": 2,
-        "name": "Concrete Driveway",
-        "description": "",
-        "image": ""
+        "name": "Curbs & Walkways",
+        "description": "We help add a distinct look to the exterior of your house by providing curbing and/or walkway installations.",
+        "image": "https://i.imgur.com/uinVSEv.jpg"
     },
     {
         "id": 3,
-        "name": "Concrete Curbing",
-        "description": "",
-        "image": ""
+        "name": "Concrete Overlay",
+        "description": "Make your concrete look better. Restore old concrete to make it look like new. Transform concrete with amazing patterns and/or color.",
+        "image": "https://i.imgur.com/hlkd2a7.jpg"
     },
     {
         "id": 4,
-        "name": "Walkway & Sidwalk Concrete",
-        "description": "",
-        "image": ""
-    },
-
-    {
-        "id": 5,
-        "name": "Custom Concrete Work",
-        "description": "",
-        "image": ""
+        "name": "Custom Work",
+        "description": "If you need something that requires a more custom fit, Our professionals can help assist in creating something you’ll enjoy.",
+        "image": "https://i.imgur.com/iIvfaJo.png"
     }
 ]

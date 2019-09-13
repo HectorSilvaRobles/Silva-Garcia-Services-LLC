@@ -7,7 +7,7 @@
 
 .serviceCard{
     height: 30rem;
-    width: 80%;
+    width: 70%;
     /* border: solid red 2px; */
     display: flex;
     justify-content: space-between;
@@ -17,6 +17,7 @@
 
 .serviceCard.opp {
     flex-direction: row-reverse;
+    background: white;
 }
 
 
@@ -64,10 +65,10 @@
     background: black;
     color: white;
     border: none;
-    font-size: 30px;
+    font-size: 22px;
     text-transform: uppercase;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     outline: none;
     cursor: pointer;
 }
@@ -75,8 +76,12 @@
 .sc-right {
     background: grey;
     height: 80%;
-    width: 55%;
+    width: 45%;
     display: flex;
+}
+
+.sc-right > img {
+    width: 100%;
 }
 
 @media screen and (max-width: 600px){

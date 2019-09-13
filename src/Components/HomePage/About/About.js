@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './about.css'
-import workers from '../../../Media/silo.jpg'
+import workers from '../../../Media/workers.jpeg'
 
 export default class About extends Component {
     render() {

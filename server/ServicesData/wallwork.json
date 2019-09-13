@@ -1,28 +1,28 @@
 [
     {
         "id": 1,
-        "name": "Painting",
-        "description": "",
-        "image": ""
+        "name": "Exterior Painting",
+        "description": "We provide professional exterior painting services on a wide variety of surfaces to enhance your home’s look",
+        "image": "https://i.imgur.com/5OsQO49.jpg"
     },
 
     {
         "id": 2,
-        "name": "Framing",
-        "description": "",
-        "image": ""
+        "name": "Interior Painting",
+        "description": "Our interior painting services provide a seamless, efficient and high quality finish for you home.",
+        "image": "https://i.imgur.com/krHaj9j.jpg"
     },
     {
         "id": 3,
-        "name": "Sheetrock & Drywall",
-        "description": "",
-        "image": ""
+        "name": "Drywall Repair",
+        "description": "No matter the damage your walls may have, we are able to repair, sand and patch any holes to create a flawless surface",
+        "image": "https://i.imgur.com/mYzWRYS.jpg"
     },
 
     {
         "id": 4,
-        "name": "Repair & Renovate",
-        "description": "",
-        "image": ""
+        "name": "Wall Removal",
+        "description": "If you need wallpaper, popcorn ceiling or a wall to removed, we are able to help lessen the burden of doing those tasks.",
+        "image": "https://i.imgur.com/k2cR67k.jpg"
     }
 ]

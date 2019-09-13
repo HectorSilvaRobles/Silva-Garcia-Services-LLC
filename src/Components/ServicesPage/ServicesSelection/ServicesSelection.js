@@ -23,11 +23,11 @@ class ServicesSelection extends Component {
             mapServices = services.map((val, index, arr) => {
                 if(index % 2 != 0){
                     style = 'serviceCard opp'
-                    console.log(index)
                 } else {
                     style = 'serviceCard'
                 }
-                console.log(style)
+
+                console.log(val.image)
 
                 return (
                     <div className={style} key={index}>
@@ -37,11 +37,12 @@ class ServicesSelection extends Component {
                             </div>
                             <div className='sc-info'>
                                 <p>{val.description}</p>
-                                <button onClick={() => this.redirectContactPage()}>Get An Estimate</button>
+                                <button onClick={() => this.redirectContactPage()}>Schedule Free Estimate</button>
                             </div>
-                            
                         </div>
-                        <div className='sc-right'></div>
+                        <div className='sc-right' >
+                            <img src={val.image} />
+                        </div>
                     </div>
                 )
             })

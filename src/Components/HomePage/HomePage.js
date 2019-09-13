@@ -33,7 +33,7 @@ export default class HomePage extends Component {
                 {this.state.sideDrawerOpen? <Backdrop click={this.backdropClick} /> : null}
                 <HeroBanner  />
                 <OurServices />
-                <OurWork />
+                {/* <OurWork /> */}
                 <About />
                 <CallToAction />
             </div>

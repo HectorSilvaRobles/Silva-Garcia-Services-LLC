@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Recurring Cleaning",
+        "description": "Worry less about cleaning up. We provide consistent cleaning services so you can always have a clean home.",
+        "image": "https://i.imgur.com/t4BX8ej.jpg"
+    },
+    {
+        "id": 2,
+        "name": "One-Time Cleaning",
+        "description": "Need a one time cleaning service. We are always ready to provide excellent cleaning whenever you need.",
+        "image": "https://i.imgur.com/r1Sz7RJ.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Moving Services",
+        "description": "Moving is already a hassle. Leave the cleaning to us, we provide cleaning services to help you move in a clean way.",
+        "image": "https://i.imgur.com/oPfJOlN.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Additional Cleaning Services",
+        "description": "Anything that might require special or unique care we can also handle that, just let us know the details.",
+        "image": "https://i.imgur.com/6UjGTgo.jpg"
+    }
+]
