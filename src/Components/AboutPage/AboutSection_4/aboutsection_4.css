@@ -45,7 +45,8 @@
 }
 
 .as4-right-side {
-    background: black;
+    background: url('../../../Media/blacknwhite.jpg');
+    background-size: cover;
     width: 35%;
     height: 80%;
 }
@@ -62,7 +63,6 @@
     }
 
     .as4-right-side {
-        background: yellow;
         height: 100%;
     }
 

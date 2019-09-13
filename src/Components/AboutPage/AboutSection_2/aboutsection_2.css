@@ -22,6 +22,11 @@
     background: none;
 }
 
+.as2-right-side {
+    background: url('../../../Media/silo.jpg');
+    background-size: cover;
+}
+
 .who-we-are {
     height: 20%;
     width: 70%;

@@ -7,6 +7,8 @@ app.use(express.json())
 
 const {EMAIL, EMAIL_PASSWORD} = process.env
 
+app.use(express.static(`${__dirname}/../build`));
+
 // landscape services
 const {getLandscapingServices, getConcreteServices, getWallWorkServices, getFlooringServices, getCleaningServices} = require('./controller')
 app.get('/api/landscaping', getLandscapingServices )
@@ -57,6 +59,12 @@ let nodemailerFunction = (input) => {
 app.post('/api/contact-form', (req, res, next) => {
     console.log( req.body)
     nodemailerFunction(req.body)
+})
+
+const path =require('path')
+
+app.get('*', (req, res )=> {
+    res.sendFile(path.join(__dirname, '../build/index.html'))
 })
 
 app.listen(4000, () => console.log('Listening on port 4000'))

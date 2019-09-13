@@ -5,11 +5,26 @@ import cement from '../../../Media/cement.png'
 import tile from '../../../Media/tile.png'
 import shovel from '../../../Media/shovel.png'
 import cleaning from '../../../Media/cleaning.jpg'
+import {Redirect} from 'react-router-dom'
 
 export default class OurServices extends Component {
+    constructor(props){
+        super(props)
+
+        this.state = {
+            redirect: false
+        }
+    }
+
+    redirectHandle = () => {
+        this.setState({
+            redirect: true
+        })
+    }
     render() {
         return (
             <div className='our-services' id='services'>
+            {this.state.redirect ? <Redirect to='/services' /> : null}
                 <div className='os-header-section'>
                     <h1>Our Services</h1>
                 </div>
@@ -49,7 +64,7 @@ export default class OurServices extends Component {
                         </div>
                         <div className='so-box'>
                             <h1>See what else we can do for you</h1>
-                            <button>Learn More</button>
+                            <button onClick={() => this.redirectHandle()}>Learn More</button>
                         </div>
                         
                     </div>

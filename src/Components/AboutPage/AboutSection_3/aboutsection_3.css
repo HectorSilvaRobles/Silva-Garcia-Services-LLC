@@ -1,6 +1,6 @@
 .about-section_3 {
     background: black;
-    height: 45vh;
+    height: 50vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -8,7 +8,8 @@
 }
 
 .as3-left-side {
-    background: white;
+    background: url('../../../Media/eddie.jpg');
+    background-size: cover;
     height: 80%;
     width: 35%;
     margin: 5px;
@@ -64,9 +65,7 @@
         margin: 0;
     }
 
-    .as3-left-side {
-        background: yellow;
-    }
+    
 
     .as-header-intro {
         justify-content: center;
