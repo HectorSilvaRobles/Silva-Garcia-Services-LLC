@@ -3,24 +3,24 @@
         "id": 1,
         "name": "Lawn Maintenance",
         "description": "Mowing of grass, cleaning up edges, removal of weeds, and fertilization to have your lawn looking good.",
-        "image": ""
+        "image": "https://i.imgur.com/ee3R57P.jpg"
     }, 
     {
         "id": 2,
         "name": "Trimming Maintance",
-        "description": "Provide a well trimmed clean look to your bushes, hedges and shrubs",
-        "image": ""
+        "description": "Keep your lawn looking clean. We provide a well trimmed clean look to your bushes, hedges and shrubs.",
+        "image": "https://i.imgur.com/ctwafG9.jpg"
     },
     {
         "id": 3,
         "name": "Cleaning & Hauling",
-        "description": "Clean up and take care of anything that needs to hauled away or disposed",
-        "image": ""
+        "description": "Clean up and take care of anything that needs to be hauled away or disposed",
+        "image": "https://i.imgur.com/UZOGCNA.jpg"
     },
     {
         "id": 4,
         "name": "Tree Maintance",
-        "description": "We help clean, trim, plant, or remove any tree from your lawn",
-        "image": ""
+        "description": "We help maintain, clean, trim, plant, and/or remove any tree on your lawn. ",
+        "image": "https://i.imgur.com/PPHnLqJ.jpg"
     }
 ]

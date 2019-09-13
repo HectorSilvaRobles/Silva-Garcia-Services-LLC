@@ -21,10 +21,10 @@ class ServicesHero extends Component {
                     <h1>Our Services</h1>
                 </div>
                 <div className='sh-options'>
-                    <button className='service-options' onClick={()=>this.servicesToDisplay('concrete')}>Concrete</button>
-                    <button className='service-options' onClick={()=>this.servicesToDisplay('wall-work')}>Wall Work</button>
+                    <button className='service-options' onClick={()=>this.servicesToDisplay('concrete')} >Concrete</button>
+                    <button className='service-options' onClick={()=>this.servicesToDisplay('wall-work')}>Painting</button>
                     <button className='service-options' onClick={()=>this.servicesToDisplay('landscaping')}>Landscaping</button>
-                    <button className='service-options' onClick={()=>this.servicesToDisplay('flooring')}>Flooring</button>
+                    {/* <button className='service-options' onClick={()=>this.servicesToDisplay('flooring')}>Flooring</button> */}
                     <button className='service-options' onClick={()=>this.servicesToDisplay('cleaning')}>Cleaning</button>
                 </div>
                 

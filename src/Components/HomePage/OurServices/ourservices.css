@@ -1,6 +1,6 @@
 .our-services {
-    /* background: white; */
-    height: 65vh;
+    background: white;
+    height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -11,35 +11,179 @@
 
 /* header of our services section */
 .os-header-section {
-    background: white;
-    height: 35%;
+    height: 25%;
     width: 70%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.os-header-section > h1 {
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
 }
 
 /* our services option section */
 .os-service-options {
-    background: orange;
-    height: 65%;
+    height: 70%;
     display: flex;
-    width: 70%;
+    width: 80%;
+    flex-direction: column;
 }
 
-.os-so-left-side {
-    background: yellow;
-    height: 100%;
-    width: 50%;
-    border: solid black 2px;
-}
-
-.os-so-ls-top {
-    /* background: black; */
-    border: solid black 1px;
+.so-top-row, .so-bottom-row {
     height: 50%;
     width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.os-so-right-side {
-    background: yellow;
-    height: 100%;
-    width: 50%;
+.so-box > button {
+    width: 90%;
+    height: 25%;
+    background: black;
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.so-box > h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: grey;
+    margin: 10px;
+    width: 80%;
+}
+
+
+.so-box {
+    width: 30%;
+    height: 90%;
+    border: solid grey 5px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.so-icon {
+    width: 35%;
+    height: 50%;
+    border: solid 5px black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.so-icon > img {
+    width: 60%;
+    background: white;
+    
+}
+
+.so-box > p {
+    height: 30%;
+    width: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .os-header-section {
+        height: 10%;
+    }
+
+    .os-header-section > h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .os-service-options {
+        height: 85%;
+    }
+    .our-services {
+        height: 220vh;
+    }
+
+    .so-box {
+        width: 100%;
+    }
+
+    .so-icon > img {
+        width: 60%;
+    }
+
+    .so-box > button {
+        font-size: 20px;
+    }
+    .so-top-row, .so-bottom-row {
+        flex-direction: column;
+    }
+
+    .so-box > h1 {
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (max-width: 1100px) and (min-width: 601px){
+    .so-icon {
+        height: 35%;
+    }
+
+    .so-box {
+        height: 85%;
+    }
+    .so-box > button {
+        font-size: 18px;
+    }
+    .so-box > h1 {
+        font-size: 23px;
+    }
+}
+
+@media screen and (min-width: 2000px){
+    .os-header-section > h1 {
+        font-size: 120px;
+    }
+
+    .so-box {
+        border: solid grey 10px;
+    }
+
+    .so-icon {
+        border: solid black 10px;
+        height: 45%;
+    }
+
+    .so-box > p {
+        font-size: 50px;
+    }
+
+    .so-box > h1 {
+        font-size: 50px;
+    }
+    .so-box > button {
+        margin-top: 20px;
+        font-size: 40px;
+    }
 }

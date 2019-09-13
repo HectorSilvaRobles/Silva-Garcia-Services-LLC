@@ -2,6 +2,7 @@ let landscaping = require('./ServicesData/landScape.json')
 let concrete = require('./ServicesData/concrete.json')
 let wallwork = require('./ServicesData/wallwork.json')
 let flooring = require('./ServicesData/flooring.json')
+let cleaning = require('./ServicesData/cleaning.json')
 module.exports = {
     getLandscapingServices: (req, res, next) => {
         res.status(200).send(landscaping)
@@ -17,6 +18,10 @@ module.exports = {
 
     getFlooringServices: (req, res, next) => {
         res.status(200).send(flooring)
+    },
+
+    getCleaningServices: (req, res, next) => {
+        res.status(200).send(cleaning)
     }
 
     

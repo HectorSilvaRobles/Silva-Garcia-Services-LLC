@@ -16,6 +16,11 @@
     position: absolute;
 }
 
+.service-options:focus, .service-options:hover, .service-options:active {
+    background: white;
+    color: black;
+}
+
 .sh-title {
     height: 20%;
     position: relative;
