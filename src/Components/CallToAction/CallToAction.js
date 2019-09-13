@@ -23,7 +23,7 @@ export default class CallToAction extends Component {
                     <h1>Let Us Help Complete Your Next Project</h1>
                 </div>
                 <div className='cta-button'>
-                    <button onClick={() => this.handleContactPage()}>Get An Estimate</button>
+                    <button onClick={() => this.handleContactPage()}>Get a Free Estimate</button>
                 </div>
                 
             </div>

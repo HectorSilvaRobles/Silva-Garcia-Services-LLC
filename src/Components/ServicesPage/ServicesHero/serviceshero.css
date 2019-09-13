@@ -98,6 +98,7 @@
 @media screen and (max-width: 900px) and (min-width: 601px){
     .service-options {
         font-size: 14px;
+        height: 30%;
     }
 }
 
