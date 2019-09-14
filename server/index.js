@@ -65,6 +65,7 @@ const path = require('path')
 
 app.get('*', (req, res )=> {
     res.sendFile(path.join(__dirname, '../build/index.html'))
+    console.log('hi')
 })
 
 app.listen(4000, () => console.log('Listening on port 4000'))
