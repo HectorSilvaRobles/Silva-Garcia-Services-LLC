@@ -145,7 +145,30 @@
 
 }
 
-@media screen and (max-width: 1100px) and (min-width: 601px){
+@media screen and (max-width: 900px) and (min-width: 601px){
+    .so-icon {
+         height: 30%
+    }
+
+    .our-services {
+        height: 80vh;
+    }
+
+    .os-header-section >h1 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .so-box > h1 {
+        font-size: 18px;
+    }
+
+    .so-box > button {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 901px){
     .so-icon {
         height: 35%;
     }
