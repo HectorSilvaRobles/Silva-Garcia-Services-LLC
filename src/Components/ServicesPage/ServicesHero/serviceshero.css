@@ -67,6 +67,11 @@
     .services-hero{
         height: 95vh;
         background-position: center;
+        margin-bottom: 50px;
+    }
+
+    .dark-background {
+        height: 93vh;
     }
 
     .sh-title {
@@ -100,6 +105,11 @@
         font-size: 14px;
         height: 30%;
     }
+
+    .services-hero, .dark-background {
+        height: 60vh;
+    }
+
 }
 
 @media screen and (min-width: 2000px){
